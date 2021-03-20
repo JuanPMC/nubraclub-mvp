@@ -1,2 +1,2 @@
-# nubraclub-mvp
-MVP for nibraclub
+# nibra-mvp
+Pagina web emparejamiento para el MVP
