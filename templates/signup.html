@@ -1,0 +1,27 @@
+{% extends 'cabeceraMVP.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %} NibraClub MVP {% endblock %}
+
+{% block body %}
+
+<form method="post" action="" style="padding-left: 20%; padding-right: 20%;" id="mvpS">
+    {{ form.hidden_tag() }}
+
+    {{ wtf.form_field(form.username) }}
+    {{ wtf.form_field(form.email) }}
+    {{ wtf.form_field(form.fname) }}
+    {{ wtf.form_field(form.lname) }}
+    {{ wtf.form_field(form.studies) }}
+    {{ wtf.form_field(form.grade) }}
+    {{ wtf.form_field(form.center) }}
+    {{ wtf.form_field(form.interest) }}
+    {{ wtf.form_field(form.aceparTerminosYemail) }}
+    {{ wtf.form_field(form.submit ,class='btn btn-dark') }}
+
+
+
+
+</form>
+
+{% endblock %}
