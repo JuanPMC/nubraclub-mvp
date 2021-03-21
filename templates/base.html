@@ -30,16 +30,14 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url_for('index') }}#idea">Nuestra Idea</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url_for('index') }}#share">Comparte</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url_for('index') }}#contact">Contacta</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url_for('signup') }}">MVP</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url_for('signup') }}">Unirse a NibraClub</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         {% block cabecera %}{% endblock %}
         <!-- Contribuye -->
-        <section class="page-section bg-secundary" id="contrib" ">
-            {% block body %}{% endblock %}
-        </section>
+        {% block body %}{% endblock %}
         <!-- Footer -->
         <footer class="bg-light py-5">
             <div class="container"><div class="small text-center text-muted">Copyright © 2021 - Nibra Club</div></div>

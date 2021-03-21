@@ -40,7 +40,7 @@ def index():
 
 @app.route("/droga")
 def droga():
-    return render_template("base.html")
+    return "Eres un jodido drogadicto, cabron deja de pensar en sustancias y ponte a currar!"
 
 @app.route("/signup", methods=['GET', 'POST'])
 def signup():

@@ -4,8 +4,8 @@
 {% block title %} NibraClub MVP {% endblock %}
 
 {% block body %}
-
-<form method="post" action="" style="padding-left: 20%; padding-right: 20%;" id="mvpS">
+<section class="page-section bg-secundary" id="mvpS">
+<form method="post" action="" style="padding-left: 20%; padding-right: 20%;" >
     {{ form.hidden_tag() }}
 
     {{ wtf.form_field(form.username) }}
@@ -23,5 +23,5 @@
 
 
 </form>
-
+</section>
 {% endblock %}

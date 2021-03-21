@@ -3,11 +3,28 @@
 {% block cabecera %}
 <section class="page-section bg-primary" id="contrib">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
+
+        <div class=" row  ">
+
+            <div class="col-lg-6 col-md-6 text-center">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="{{ url_for('static',filename='hero.mp4') }}" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 text-center">
                 <h2 class="text-white mt-0">Unete al Club</h2>
                 <hr class="divider light my-4" />
-                <p class="text-white-50 mb-4">Escribe tus gustos y nosostros utilizaremos nuestro algoritmo para ponerte en contacto con gente que vale la pena. Descubre a gente para lo que quieres hacer.</p>
+                <ol class="text-white mb-4">
+                  <li style="margin: 10px 0;">Encuentra a personas nuevas</li>
+                  <li style="margin: 10px 0;">Invierte tiempo en gente que vale la pena</li>
+                  <li style="margin: 10px 0;">DISFRUTA DE LA VIDA! esto es para lo que estamos aqui</li>
+                  <li style="margin: 10px 0;">Nunca mas perder el tiempo socializando sin sentido</li>
+                </ol>
+                <p class="text-white-50 mb-4">
+                  Escribe tus gustos y nosostros utilizaremos nuestro algoritmo para ponerte en contacto con gente que vale la pena. Descubre a gente para lo que quieres hacer.
+                </p>
+
                 <a class="btn btn-light btn-xl js-scroll-trigger" href="#mvpS">Unirse al Club</a>
             </div>
         </div>
